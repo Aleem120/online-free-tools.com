@@ -138,9 +138,22 @@
 </head>
 <body>
     <header class="header">
-        <h1>VideoCompress Pro</h1>
-        <p>Free Online Video Compression Tool</p>
-    </header>
+    <h1><a href="https://example.com" class="header-link">VideoCompress Pro</a></h1>
+    <p>Free Online Video Compression Tool</p>
+</header>
+
+<style>
+.header-link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.header-link:hover {
+    color: #2c3e50; /* Change to your preferred hover color */
+    text-decoration: underline;
+}
+</style>
 
     <div class="container">
         <!-- Navigation -->
